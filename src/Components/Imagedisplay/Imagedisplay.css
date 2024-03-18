@@ -1,0 +1,27 @@
+.imagedisplay-with-icons {
+    width: 750px;
+}
+
+.image-icon img {
+    max-width: 75px;
+    max-height:75px;
+}
+
+.imagedisplay-with-icons img{
+    width: 400px;
+    height: 400px;
+}
+
+.image-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.image-menu li {
+    margin: 2px;
+}
+
+.image-menu li:hover {
+    border: 1px black solid;
+}

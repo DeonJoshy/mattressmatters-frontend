@@ -1,0 +1,10 @@
+.carousel{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+img{
+    width:500px;
+    height:500px;
+}

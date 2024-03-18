@@ -1,0 +1,16 @@
+.product-item{
+    text-align: center;  
+    /* background-color: rgb(173, 173, 230);  */
+    border-radius: 5px;
+    /* flex-direction: column; */ 
+    border: solid 2px black;
+}
+
+.product-item img{
+    max-width:140px;
+    max-height:140px;
+}
+
+.product-item p{
+    color: black;
+}

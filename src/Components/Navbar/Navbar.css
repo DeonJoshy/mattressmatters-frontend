@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 1px 3px -2px black ;
+}
+
+.nav-logo {
+    flex-basis: 25%;
+}
+
+.nav-name {
+    padding-left: 23%;
+}

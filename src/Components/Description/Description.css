@@ -1,0 +1,14 @@
+.description {
+    width:750px;
+}
+
+.description-item {
+    list-style: circle;
+}
+
+.description-heading {
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(98, 78, 115);
+}
