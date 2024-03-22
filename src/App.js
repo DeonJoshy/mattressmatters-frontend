@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <Routes>
         <Route exact path="/" Component={Home}/>
-          <Route path="product/:id" Component={Productdetails}/>
+          <Route path="product/:product_name" Component={Productdetails}/>
         </Routes>
     </div>
   );
