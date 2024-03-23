@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,500;1,500&display=swap');
+
 .navbar {
     display: flex;
     padding: 10px;
@@ -5,9 +7,19 @@
 }
 
 .nav-logo {
-    flex-basis: 25%;
+    flex-basis: 23%;
+}
+
+.nav-logo img {
+    width:40px;
+    height: 26px;
 }
 
 .nav-name {
     padding-left: 23%;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(123, 124, 56);
 }
