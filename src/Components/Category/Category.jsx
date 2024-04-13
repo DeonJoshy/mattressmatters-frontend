@@ -9,7 +9,7 @@ export const Category = () => {
     const categories = {
         "Bedroom":['Beds','Bunk Beds','Bedroom Sets','Night Stands','Mattresses','Folding Beds','Trundle Beds','Headboards','Bed Frames','Platforms','Electric beds'],
         "Dining":['Dinettes','Bar & Pub Sets','Bar Stools','Chairs'],
-        "Living":['pppppp','qqqqq']
+        "Living":['Sofa Beds','Recliner & Lift Chairs','Sectionals','Sofa Stationary','Sofa Recliners','Futons','Accent Chairs','Coffee Tables & Side Tables','Benches & Ottomans']
     };
     const [category,setCategory] = useState()
     const [products,setProducts] = useState()

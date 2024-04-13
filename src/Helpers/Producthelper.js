@@ -17,7 +17,7 @@ export async function fetchProducts(category,subcategory){
 export async function fetchProduct(category,subcategory,id){
 
     const category_ = category.toLowerCase();
-    const subcategory_ = subcategory.toLowerCase().replace(/\s/g, "")
+    const subcategory_ = subcategory.toLowerCase().replace(/\s|&/g, "")
 
     const response = await fetch(`${BASE_URL}${category_}/${subcategory_}/${id}`,{
         method:'GET'

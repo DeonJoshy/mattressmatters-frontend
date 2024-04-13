@@ -32,7 +32,7 @@ export const Productdetails = () => {
           <div className='image-dimensions-description'>
             <Imagedisplay images = {product.pictures}/>
             <div className='dimension-description'>
-              {product.dimensions? <Dimensions dimensions = {product.dimensions}/> : <p>nothing</p>}
+              {product.dimensions? <Dimensions dimensions = {product.dimensions}/> : <p></p>}
               {product.description? <Description descriptions = {product.description}/>:<p>nothing</p>}
             </div>
           </div>
