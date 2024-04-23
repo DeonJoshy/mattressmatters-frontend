@@ -6,10 +6,12 @@ import "./Productdetails.css"
 import { Dimensions } from '../../Components/Dimensions/Dimensions'
 import { Description } from '../../Components/Description/Description'
 import { fetchProduct } from '../../Helpers/Producthelper'
+import { useParams } from 'react-router-dom'
 
 export const Productdetails = () => {
 
   const [product,setProduct] = useState();
+  const {product_name} = useParams()
 
   const id = localStorage.getItem('id')
   const category = localStorage.getItem('category')
@@ -17,11 +19,11 @@ export const Productdetails = () => {
 
   useEffect( () => {
 
-    fetchProduct(category,subcategory,id).then((res) => {
+    fetchProduct(category,subcategory,product_name).then((res) => {
       setProduct(res)
     })
 
-  },[category,subcategory,id])
+  },[category,subcategory,product_name])
 
   return (
     <div className='product-details'>
