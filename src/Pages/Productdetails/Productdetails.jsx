@@ -13,7 +13,6 @@ export const Productdetails = () => {
   const [product,setProduct] = useState();
   const {product_name} = useParams()
 
-  const id = localStorage.getItem('id')
   const category = localStorage.getItem('category')
   const subcategory = localStorage.getItem('subcategory')
 
