@@ -4,13 +4,13 @@
     border-radius: 5px;
     /* flex-direction: column; */ 
     border: solid 2px black;
-    width: 140px;
-    height: 180px;
+    width: 250px;
+    height: 300px;
 }
 
 .product-item img{
-    max-width:140px;
-    max-height:140px;
+    max-width:250px;
+    max-height:250px;
 }
 
 .product-item p{
