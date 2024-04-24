@@ -4,6 +4,8 @@
     border-radius: 5px;
     /* flex-direction: column; */ 
     border: solid 2px black;
+    width: 140px;
+    height: 180px;
 }
 
 .product-item img{

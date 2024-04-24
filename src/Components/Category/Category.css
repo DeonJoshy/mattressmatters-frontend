@@ -47,7 +47,7 @@
 .product-menu{
     display: flex;
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-    gap: 10px; 
+    gap: 15px; 
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
